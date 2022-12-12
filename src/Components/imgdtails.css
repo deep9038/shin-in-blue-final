@@ -1,0 +1,137 @@
+.up-img{
+    position: relative;
+}
+.van-full-img img{
+    height: inherit;
+    /* width: auto; */
+}
+.van-full-img{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+}
+.ven-in-full-img-container{
+    position:relative;
+    margin: auto 0;
+    width: 100%;
+    background:linear-gradient(0deg,black,transparent)
+}
+.ven-img-navout{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,.03));
+   
+    z-index: 1;
+}
+.dit{
+    margin: 2rem;
+    max-width: calc(150 + 10.5rem*2);
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+}
+.dit .d .ulz-col{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+}
+.ulz-col{
+    flex: 1 1 0;
+    box-sizing: border-box;
+    max-width: 100%;
+
+}
+.item-descrip h4 , .imgdet h4{
+    margin: 0 0 1.25rem;
+    font-size: 20px;
+}
+.imgdet{
+    margin: 2rem 0;
+}
+.imgpes{
+    margin-bottom: 1rem;
+}
+.imgpes ul{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 -0.5rem;
+    padding-left: 2rem;
+}
+.imgpes ul li{
+    flex: 0 1 50%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    margin: 5px 0;
+    font-weight: 600;
+}
+.ulz-listing-action{
+    flex: 0 1 100%;
+    max-width: 100%;
+    margin-top: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    --dropdown-width: 100%;
+}
+.ulz-mod-action{
+   
+    top: 70px;
+    padding-top: 1.75rem;
+    margin-top: -1.75rem;
+    z-index: 1;
+}
+.ulz-action-author .ulz--avatar {
+    display: flex;
+    align-items: center;
+    margin: 0 0 1rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.ulz-action-contact{
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 14%);
+    border-radius: 8px;
+}
+.utillz .ulz-mod-action-report {
+    box-shadow: none;
+    padding: 0;
+    background-color: transparent;
+}
+.ulz-text-center {
+    text-align: center;
+}
+.ulz-action-report .ulz--label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+.ulz-action-report.icon {
+    font-size: 20px;
+}
+.related{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 550px){
+    .ader-page-img{
+        width: 100%;
+    }
+    .van-full-img{
+        width:inherit ;
+        height: inherit;
+    }
+    .van-full-img img{
+        width:100%;
+        height: fit-content;
+    }
+}

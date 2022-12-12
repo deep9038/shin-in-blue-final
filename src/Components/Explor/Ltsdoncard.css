@@ -1,0 +1,67 @@
+.photoset {
+  padding: 2px;
+  background-color: #ffffff;
+  /* max-width: 600px; */
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.photo{
+  position: relative;
+  flex-grow: 1;
+  min-width: calc(100% / 3); 
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 700px) {
+  .photo{
+    min-width: calc(100% / 2);
+  }
+}
+@media screen and (max-width: 700px) {
+  .photo{
+    min-width: 100%;
+  }
+}
+.photo::after{
+  padding-top: 83.33333%;
+  display: block;
+  content: "";
+}
+.photo::before{
+  z-index: 2;
+         position: absolute;
+         content: "";
+         top: 0px;
+         right: 0px;
+         bottom: 0px;
+         left: 0px;
+         box-shadow: inset 0 0 0 2px #ffffff; 
+}
+
+.photo:nth-child(1){
+  width: 100%;
+}
+.photo .square .photo:after {
+  padding-top: 100%;
+}
+.photo .portrait .photo:after {
+  padding-top: 120%;
+}
+.tl{
+  background-color: #ffffffbb;
+  /* overflow-y: scroll;*/ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: inherit;
+  border-radius: 10px;
+}
+.infinite-scroll-component {
+  overflow: hidden !important;
+}
+.infinite-scroll-component__outerdiv{
+  width: 100%;
+}

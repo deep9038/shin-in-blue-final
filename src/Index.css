@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald:wght@300&display=swap');
+body{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+button{
+    font-family: 'Oswald', sans-serif;
+}
+input{
+    font: 15px/1.25em Arial, Helvetica, sans-serif;
+} 

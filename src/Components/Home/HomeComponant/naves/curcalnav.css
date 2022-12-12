@@ -1,0 +1,87 @@
+ .curcal-manu{
+    display: none;
+} 
+
+@media only screen and (max-width: 853px){
+    .curcal-manu{
+        display: block;
+        position: fixed;
+        height: 135px;
+        height: 0;
+        bottom: 6rem;
+        right: 0;
+        
+    } 
+
+.manu-toggle{
+    opacity: 0;
+}
+li a {
+    color: black;
+}
+
+
+/* .manu_item a{
+    display: block;
+    line-height:40px;
+    color: rgba(0, 0, 0, 0.493);
+    background: rgb(72, 255, 246);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    pointer-events: none;
+    transition: .2s;
+} */
+.manu_item{
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.manu-toggle:checked+label{
+    background: transparent;
+}
+/* .manu-toggle:checked+label::after,
+.manu-toggle:checked+label::before{
+    top: 0;
+    width: 40px;
+    transform-origin: 50% 50%;
+}
+.manu-toggle:checked+label::before{
+    transform: rotate(45deg);
+}
+.manu-toggle:checked+label::after{
+    transform: rotate(-45deg );
+} */
+.manu-toggle:checked~ul .manu_item{
+    opacity: 1;
+}
+.manu-toggle:checked~ul .manu_item:nth-child(1){
+    transform: rotate(0deg) translateX(-110px);
+}
+.manu-toggle:checked~ul .manu_item:nth-child(2){
+    transform: rotate(22.5deg) translateX(-110px);
+}
+
+.manu-toggle:checked~ul .manu_item:nth-child(3){
+    transform: rotate(45deg) translateX(-110px);
+}
+
+.manu-toggle:checked~ul .manu_item:nth-child(4){
+    transform: rotate(67.5deg) translateX(-110px);
+}
+
+.manu-toggle:checked~ul .manu_item:nth-child(5){
+    transform: rotate(90deg) translateX(-110px);
+}
+
+
+}

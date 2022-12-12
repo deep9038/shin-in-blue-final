@@ -1,0 +1,14 @@
+.card{
+   min-width: 15vw;
+   width: 100px;
+}
+.slid{
+    width: 60%;
+    height: initial;
+    height:auto;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-top: 4rem;
+    display: flex;
+
+}

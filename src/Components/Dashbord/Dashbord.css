@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.profile-page-background-img-container{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background-color: #000;
+}
+.profile-page-background-img{
+    height: inherit;
+    width: inherit;
+    opacity: 0.4;
+}
+.peofile-img-container{
+    padding-left:50px;
+    position: absolute;
+    top: 10px;
+
+}
+.peofile-img-container h3{
+    color: #fff;
+}
+.peofile-img-container img{
+    width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center right;
+     object-position: center right;
+}
+
+.acssasoris{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    justify-content: space-around;
+}
+.desbord-devider .col-3{
+border-right: 1px solid black;
+}
+.acssasoris-item{
+    flex-basis: 40%;
+    max-width: 40%;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.pasword-change-section {
+    padding: 2rem 0;
+}
+.conshuit{
+    
+        position: relative;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+        background-color: #fff;
+        color: inherit;
+        text-decoration: none;
+        border-radius: 10px;
+        box-shadow: 0 0 0 1px hsl(0deg 0% 65% / 30%);
+    
+}
+.icon-ass{
+    transition: all .3s;
+    width: 50px;
+    height: auto;
+    margin-bottom: 1rem;
+    line-height: 50px;
+    background: #111;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 12px;
+}
+.deshbord-manu{
+    flex: 0 1 230px;
+    max-width: 230px;
+    /* border-right: 1px solid black !important; */
+   
+}
+.ham{
+    display: none;
+}
+.addressssss{
+    justify-content: center;
+}
+@media screen and (max-width: 921px){
+    .ham{
+        width: 50vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .desbord-devider .col-3{
+        border-right:none;
+        }
+    .deshbord-manu{
+        border-right: none;
+    }
+    .hamberger-manu{
+        display: none;
+        width: 60vw;
+    }
+    .desbord-matarial{
+        width: 80%;
+    }
+ 
+}
+@media screen and (max-width: 400px){
+
+
+.ulz-author-cover .ulz--heading {
+padding: 0;
+
+}}
+.chek_not input{
+    position: relative;
+    display: block;
+    width: 23px;
+    height: 23px;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 1px #000, 0 3px 8px 0 rgb(0 0 0 / 10%);
+    transition: all .3s;
+
+
+
+}
+.chek_not label{
+    flex: 1;
+    margin-left: 1rem;
+    font-style: normal;
+    line-height: 23px;
+    display: block;
+}
+.chek_not{
+    position: relative;
+    display: flex;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+.ad-div{
+    /* margin: 10px; */
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(241, 230, 216);
+}
+.sd-text b,.sd-text p{
+    color: black;
+    margin: 20px!important;
+}
+.sd-text b{
+    display: block;
+    
+    font-size: 20px;
+}
+.ad-butten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.from-setting label{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.from-h2{
+    color: #000;
+    margin: 1rem 0;
+}
+.ad-from{
+    height: 129vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.address-btn{
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Forgot-password{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+.remember-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 0;
+}
+.type_file{
+    height: inherit;
+    padding: 4px;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    background-color: rgba(255, 0, 0, 0.274);
+}
+.ad-butten button{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+    background: transparent;
+    background-color: red;
+    color: #fff;
+    border: 0;
+    font-weight: 700;
+    border-radius: 7px;
+    text-decoration: none !important;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.cheak_enabel{
+    width: 100%;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid red;
+    margin: 10px;
+    border-radius: 10px;
+}
+.cheak_enabel b{
+    margin: 0 0 1rem;
+    color: black;
+}
+.desbord-manu-item{
+    flex-wrap: wrap;
+    margin: 0;
+    list-style: none;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.desbord-matarial h1{
+    margin: 0 20px;
+}
+.desbord-devider{
+    justify-content: center;
+    margin-top: 2rem;
+}
+.d-manu-item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+    color: #111;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 36px;
+}
+.icon-des{
+    font-size: 20px;
+    margin-right: 0.75rem;
+}
+.desbord-matarial p{
+    margin: 20px 20px;
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.home{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.home{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.Home-PanelList-Wrpe,.Home-Panel-Wrap,.Home-list-Wrap{
+    overflow-y: auto;
+}
+.Home-PanelList-Wrpe{
+    display: flex;
+   flex: 1;
+
+}
+.Home-Panel-Wrap{
+    /* background-color: red; */
+   flex-basis: 280px;
+   padding: 1rem;
+ 
+}
+.Home-list-Wrap{
+/* background-color: blue; */
+flex: 1; 
+padding: 1rem;
+}
+.scrchbar-wrap{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.26);
+    padding: 1.5rem 1rem;
+}
+.searchBar-icon{
+    color:  rgba(0,0,0,.26);
+    margin-right: 2rem;
+}
+.scrchbar-wrap input{
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+input{
+    font-family: 'Raleway', sans-serif;
+}
+.scrchbar-wrap input::placeholder{
+    color:  rgba(0,0,0,.26);
+}

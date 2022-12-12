@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+.contact-page{
+    display: flex;
+    flex-direction:column;
+    margin: 1rem 2rem;
+}
+.cp-massage h1{
+    text-decoration: underline;
+    margin-bottom: 2rem;
+    font-family: 'Mukta', sans-serif;
+}
+.cp-massage p{
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.careers p{
+    font-family: 'Mukta', sans-serif;
+    /* margin-bottom: 2rem; */
+    margin-left: 2rem;
+}
+.careers b{
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #37393a;
+    margin-left: 2rem;
+}
+.about h3{
+    text-decoration: underline;
+  margin: 1rem 0 1.2rem 0;
+    font-family: 'Mukta', sans-serif;
+}
+.about b{
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #37393a;
+    margin-left: 2rem;
+}
+.about p{
+   
+    margin-left: 2rem;
+    font-family: 'Mukta', sans-serif;
+}
+.careers h3{
+    color: black;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+    font-family: 'Mukta', sans-serif;
+}
+.contect-but{
+    margin: 1rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bbc3c540;
+    border-radius: 10px;
+}
+.abusimg{
+    height: initial;
+    margin: 2rem;
+    margin-top: 5rem;
+    margin-left: 0;
+}
+.gif{
+    height: inherit;
+}
+.contectgif{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.form input{
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    margin: 0;
+    margin: 0.5rem 0;
+    width: 70%;
+    background-color: rgb(197, 197, 197);
+}
+#contact{
+    width: 400px;
+    font-size: 80px;
+    margin: 0 2rem;
+}
+input::placeholder{
+    font-Family: 'Rubik' 
+}
+textarea{
+    width: 70%;
+}
+textarea::placeholder{
+    font-Family: 'Rubik' 
+}
+.btn-fo{
+    width: 20%;
+    margin-top: 10px;
+}
+.careers h5 , .about h5{
+    margin-top: 2rem;
+}
+.contact-page h2{
+    font-size: 60px;
+    
+}
+#contact{
+    text-align: center;
+}
+@media only screen and (max-width: 1000px){
+    .contact-page{
+        display: flex;
+        flex-direction: column;
+     
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-page h2{
+        font-size: 50px;
+        text-align: center;
+        margin-right:1rem;
+            
+    }
+    #contact{
+        margin: auto auto;
+    }
+}
+@media only screen and (max-width: 400px){
+    #contact{
+        margin: 1rem auto ;
+        font-size: 50px;
+        width: inherit;
+    }
+}

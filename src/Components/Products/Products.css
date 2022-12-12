@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@300&display=swap');
+.assets-container {
+  display: flex;
+  flex-direction: column;
+}
+.shado {
+  padding: 5px;
+  box-shadow: 7px 9px 26px -3px rgba(0, 0, 0, 0.96);
+  -webkit-box-shadow: 7px 9px 26px -3px rgba(0, 0, 0, 0.96);
+  -moz-box-shadow: 7px 9px 26px -3px rgba(0, 0, 0, 0.96);
+  position: fixed;
+  width: inherit;
+  font-family: 'Bebas Neue', cursive;
+}
+.dropdown-menu {
+  inset: 4px auto auto -198px;
+}
+.assets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.assets input {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.assets h6{
+    font-family: 'Bebas Neue', cursive;
+}
+.assets-container div {
+  margin: 0.5rem 0;
+}
+.assets-container div h5 {
+  justify-content: end;
+  background-color: burlywood;
+}
+.assets h4{
+    font-family: 'Bebas Neue', cursive;
+}
+.assets .btn-group .btn , .dropdown-item, .assets.h6{
+    font-family: 'Bebas Neue', cursive;
+}
+#button .btn{
+    font-family: 'Bebas Neue', cursive;
+}
+@media (max-width: 991px){
+    .filter{
+        width: 100%;
+    }
+    .shado{
+        position: relative;
+    }
+    .val-gal{
+        width: 100%;
+    }
+    .val-gal-container {
+        column-count: 3;
+        margin: 2rem 0;
+        
+    }
+    .assets-container div {
+        margin: 0.2rem 0;
+    }
+    .assets input {
+       
+        width: 80%;
+    }
+}
+@media (max-width: 760px){
+    .val-gal-container {
+        column-count: 2;
+        margin: 1rem 0;
+       
+    }
+}
+@media (max-width: 600px){
+    .val-gal-container {
+        column-count: 1; 
+    }
+}
+@media (max-width: 450px){
+    .val-gal-container {
+        margin: 0.2rem 0;
+    }
+}

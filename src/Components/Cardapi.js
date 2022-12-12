@@ -1,0 +1,54 @@
+const carddata=[
+{
+    cat:"FOOD",
+    size:"1080X920",
+    Img:"https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+},
+{
+    cat:"nature",
+    size:"1080X920",
+    Img:"https://cdn.pixabay.com/photo/2022/07/29/18/11/city-7352352__340.jpg"
+},
+{
+    cat:"car",
+    size:"1080X920",
+    Img:"https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+},
+{
+    cat:"bick",
+    size:"1080X920",
+    Img:"https://cdn.pixabay.com/photo/2022/06/09/04/53/ride-7251713__340.png"
+},
+{
+    cat:"landscape",
+    size:"1080X920",
+    Img:"https://images.unsplash.com/photo-1655791742730-d239e4c2525b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0aHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+},
+{
+    cat:"mountain",
+    size:"1080X920",
+    Img:"https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+},
+{
+    cat:"animal",
+    size:"1080X920",
+    Img:"https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+},
+{
+    cat:"horse",
+    size:"1080X920",
+    Img:"https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+},
+{
+    cat:"fation",
+    size:"1080X920",
+    Img:"https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+},
+{
+    cat:"india",
+    size:"1080X920",
+    Img:"https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+},
+
+]
+export default carddata

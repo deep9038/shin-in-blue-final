@@ -1,0 +1,232 @@
+
+.full-img-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.in-full-img-container{
+    position:absolute;
+    margin: auto 0;
+    width: 100%;
+}
+.img-navout{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,.03));
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    z-index: 2;
+}
+
+.full-img{   
+    display: block;
+    max-height: calc(100vh - 20px - 10rem);
+    margin: 0 auto;   
+}
+.ulz-action-author .ulz--avatar .ulz-avatar {
+    flex: 0 1 55px;
+    max-width: 55px;
+}
+.ulz-avatar-placeholder {
+    position: relative;
+    /* background-color: #eee; */
+    color: #333;
+    border-radius: 50%;
+    text-align: center;
+    background-color: black;
+    /* padding-top: 100%; */
+    margin: 8px;
+}
+.ulz-listing-action .ulz-action-footer .ulz-button {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: transparent;
+    background-color: #2a6b6b;;
+    color: #fff;
+    border: 0;
+    font-weight: 700;
+    border-radius: 7px;
+    text-decoration: none!important;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.ulz-avatar-placeholder img{
+    position: relative;
+    height: 40px;
+    width: inherit;
+    border-radius: 50px;
+}
+.ulz-action-author .ulz--meta {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.ulz-action-author .ulz--name {
+    font-size: 21px;
+    font-family: var(--font-heading);
+    line-height: 1.1;
+}
+.ulz-action-author .ulz--view {
+    font-size: 13px;
+    text-decoration: none;
+}
+.img-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.admin-det{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 -0.5rem;
+    padding: 0 1rem;
+    min-width: 0;
+    text-decoration: none;
+}
+.admin-det img{
+    flex: 0 1 57px;
+    max-width: 47px;
+    margin: 0 0.3rem;
+    border-radius: 50px;
+}
+
+.admin-det div p{
+    flex: 1;
+    min-width: 0;
+    padding: 0 0.5rem;
+}
+.img-option-mnu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -0.5rem;
+    padding: 0 1rem;
+    min-width: 0;
+}
+.img-option-mnu div{
+padding: 0.35rem;
+}
+.img-option-mnu a{
+    padding: 0.35rem;
+}
+.img-cont{
+    position: relative;
+    border-radius: 10px;
+}
+.img-cont .full-img{
+    outline: 0!important;
+    box-sizing: border-box;
+}
+.img-cont .full-img img{
+    display: block;
+    max-height: calc(120vh - 80px - 15rem);
+    margin: 0 auto;   
+}
+@media screen and (max-width: 550px){
+    .img-cont .full-img img{
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+    .img-navout{
+        background: none;
+        backdrop-filter:none;
+        height: 100%;
+    }
+    .img-nav{
+        flex-direction: column;
+        height: 100%;
+    }
+    .img-option-mnu div {
+        padding: 5px 3px;
+    }
+    .admin-det{
+        margin-right: auto;
+    }
+    
+}
+
+
+.img-na-item-list {
+    display: flex;
+    align-items: center;
+ 
+    background-color: hsla(0,0%,100%,.2);
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0 0.2rem;
+}
+.dropdown{
+    background-color: transparent;
+    padding: 0;
+}
+.right-but{
+    display: block;
+    right: 1rem;
+    position: fixed;
+    top: 50%;
+    
+    padding: 0 8px;
+    margin-top: -20px;
+    line-height: 40px;
+    text-align: center;
+    background: hsla(0,0%,100%,.2);
+    border-radius: 5px;
+    z-index: 2;
+    cursor: pointer;
+
+}
+.left-but{
+    display: block;
+    left: 1rem;
+    position: fixed;
+    top: 50%;
+    
+    padding: 0 8px;
+    margin-top: -20px;
+    line-height: 40px;
+    text-align: center;
+    background: hsla(0,0%,100%,.2);
+    border-radius: 5px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.dropdown-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.nav-text{
+    font-family: 'Roboto Mono', monospace;
+}
+.admin-det p{
+    color: #fff;
+    
+}

@@ -1,0 +1,87 @@
+.imgup{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: url("https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png");
+    background-size: 100% 100%;
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+}
+.My-file{
+    position: relative;
+    bottom: 0;
+    top: 70px;
+    /* right: 0; */
+    outline: none;
+    color: transparent;
+    background-color: #0000006b;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 0;
+    /* flex-direction: column; */
+    /* display: flex; */
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.5s;
+    /* justify-content: center; */
+    /* align-items: center;*/
+}
+.My-file::-webkit-file-upload-button{
+    visibility: hidden;
+
+}
+.My-file::before{
+    content: '\f030';
+    font-family: fontAwesome;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+      display: inline-block;
+      -webkit-user-select: none;
+      display: flex;
+      justify-content: center;
+}
+.My-file::after{
+    content: 'update';
+    font-family: 'arial';
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    top: 70px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+.My-file:hover{
+      opacity: 1;
+}
+.wraper{
+    position: absolute;
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.wraper h3{
+    display: flex;
+    justify-content: center;
+}
+.inputtfile label{
+    padding: 10px;
+    background: #7e7777d6;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    display: table;
+    color: #fff;
+}
+.inputtfile input[type="file"] {
+    display: none;
+}
+.photo-chous-btn{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}

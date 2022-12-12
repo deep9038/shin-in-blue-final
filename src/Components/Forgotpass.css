@@ -1,0 +1,25 @@
+.forgot-password-continer h4{
+color: black;
+font-family: 'Oswald', sans-serif;
+margin: 20px;
+}
+.forgotpass h1{
+    margin: 2rem;
+
+}
+.forgot-pass div{
+    display: flex;
+   padding: 2rem;
+    flex-direction: column;
+}
+.forgot-pass div label{
+    justify-content: flex-start;
+}
+.forgot-pass div .form-control{
+    width: 50%;
+    justify-content: flex-start;
+}
+.forgot-pass div .address-btn{
+    width: min-content;
+    justify-content: flex-start;
+}

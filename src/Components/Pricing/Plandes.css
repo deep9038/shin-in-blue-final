@@ -1,0 +1,41 @@
+.plan-card {
+    /* background-color: rgba(117, 186, 188, 0.36); */
+    margin: 0 0.5rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan-card button{
+   
+    font-family: 'Roboto', sans-serif;
+}
+.plan-card ul li {
+    list-style: none; 
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.plan-card ul{
+    padding-left: 0;
+}
+.plan-card ul li p{
+    margin-left: 0.2rem;
+}
+.sub:nth-child(1) button{
+    display: none;
+
+}
+@media only screen and (max-width:990px){
+    .plan-card{
+       margin: 1rem 0;
+    }
+}
+@media only screen and (max-width:400px)
+{
+     .plan-card ul li p{
+      display: block;
+     }
+}

@@ -1,0 +1,43 @@
+.N-dropdown-menu {
+  background: rgba(223, 215, 215, 0.589);
+  width: 200px;
+  position: absolute;
+  top: 80px;
+  list-style: none;
+  text-align: start;
+  z-index: 1;
+}
+
+.N-dropdown-menu li {
+  background: #d8dde2b9;
+  cursor: pointer;
+}
+
+.N-dropdown-menu li:hover {
+  background: #5cabff;
+}
+
+.N-dropdown-menu.clicked {
+  display: none;
+}
+
+.N-dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+}
+
+@media screen and (max-width: 960px) {
+  .N-dropdown-menu {
+    position: relative;
+    width: 80%;
+    top: 90px;
+    margin: 0 auto;
+}
+.N-dropdown-link{
+text-align: center;
+}
+}

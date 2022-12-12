@@ -1,0 +1,13 @@
+.label,.label-rang {
+  margin-bottom: 0.8rem;
+
+  font-weight: 600;
+}
+.input-group{
+    margin-bottom: 2rem;
+    flex-direction: column;
+}
+.label-rang{
+    margin-bottom: 2.5rem;
+   
+}

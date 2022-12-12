@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Rubik:wght@500&family=Ubuntu:wght@300&display=swap');
+b,h2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.chuse-be{
+    
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+.chuse-be{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.vender-details{
+    font-size: smaller;
+}
+.be_vender:hover{
+    background-color:rgb(134, 170, 163);
+}
+
+.be_vandr_hader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.be_vender{
+    background-color: rgb(112, 117, 116);
+    margin: 0.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    height: 120px;
+}
+.model{
+    background-color: black;
+}
+.logIn-img-bk{
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.4;
+}
+button{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.modal-background{
+    position:fixed;
+    top: 0;
+    /* background-color: rgba(36, 95, 88, 0.952);
+    background-image: url(https://media.giphy.com/media/WsjhDLmai7HdXMUzx7/giphy-downsized.gif); */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.modal-container{
+    display: flex;
+    align-items: center;
+    
+}
+.logpan button{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.google, .fb{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    margin: 0.2rem 0;
+    padding: 0.4rem 0;
+}
+.logpan {
+    display: flex;
+    flex-direction: column;
+   justify-content:center;
+}
+.join-with{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.google b, .fb b{
+    color: black;   
+    font-size: inherit;     
+}
+.modimg{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 80vh;
+   
+}
+.modimg img{
+    height: 100%;
+    width: 100%;
+}
+.logpan{
+    width: 30vw;
+    position: relative;
+    margin: 1rem;
+}
+
+.text,.password{
+    width: 100%;
+    margin: 0.2rem 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0;
+}
+.input-plot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.fp{
+    display: flex;
+    
+  
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 10px;
+    padding: 0;
+
+
+}
+.welcome{
+    font-size:xx-large;
+    margin-bottom: 2rem;
+}
+.fp h4{
+    font-size: inherit;
+    margin:0 1rem ;
+    color: black;
+}
+.btn-pnl .btn{
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid black;
+}
+.btn-pnl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60vw;
+    margin: inherit;
+}
+.logpan button:hover{
+    background-color: blanchedalmond;
+}
+@media only screen and (max-width: 853px){
+    .modimg{
+        display: none;
+    }
+    .logpan{
+        width: 71vw;
+    position: relative;
+    height: 80vh;
+    }
+    .google, .fb{
+        width: 50%;
+        align-items: center;
+    }
+    .join-with{
+        margin-top: 5rem;
+    }    
+    .input-plot{
+        align-items: flex-end;
+    }
+}
+@media only screen and (max-width: 991px){
+    .google b, .fb b{
+        font-size: small;
+    }
+}
+@media only screen and (max-width: 500px){
+    .google b, .fb b{
+        font-size:x-small;
+    }
+    .google, .fb{
+        width: 90%;        
+    }
+  
+}
+@media only screen and (max-width: 457px){
+    .be_vandr_hader p{
+        font-size: xx-small;
+    }
+}
+

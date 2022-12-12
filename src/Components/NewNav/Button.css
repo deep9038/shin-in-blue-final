@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+:root {
+  --primary: #2ef0e0a1;
+}
+
+.N-btn{
+  padding: 4px 10px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin: 0 2px;
+  font-size: 14px;
+  font-family: 'Mukta', sans-serif;
+  color: #fff;
+  cursor: pointer;
+  background-color: var(--primary);
+}
+
+.N-btn:hover {
+  padding: 6px 18px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 4px;
+  border: 2px solid var(--primary);
+  transition: all 0.3s ease-out;
+}

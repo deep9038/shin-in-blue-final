@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+p{
+    font-family: 'Rubik', sans-serif;
+}
+.btn{
+    box-shadow: none;
+}
+input{
+    border: none;
+    box-shadow: none;
+}
+.container-src{
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.dropdown button p{
+    display: contents;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+
+}
+.dropdown button{
+    width: inherit;
+}
+.dropdown .dropdown-menu div :hover{
+    background-color: bisque;
+}
+@media screen and (max-width: 768px){
+    .dropdown .dpbut {
+        width: 140px;
+    } 
+    .dropdown button p{
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 576px){
+    .dropdown .dpbut {
+        width: 200px;
+    } 
+}
+@media screen and (max-width: 466px){
+    .dropdown .dpbut {
+        width: inherit;
+    } 
+}
+@media screen and (max-width: 466px){
+    .dropdown button p{
+       font-size: 10px;
+    } 
+}
